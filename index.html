@@ -4,57 +4,71 @@
     <meta charset="UTF-8" >
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <meta name="description" content="This is the landing page of a camp">
-    <meta name="author" content="Andres Sandoval Ibarra">
+    <meta name="description" content="This is the description of the page that is used by SEO to optimize search 
+      results and to provide a summary of the site.">
+    <meta name="author" content="Author's name">
     <title>My project</title>
-    <link rel="stylesheet" href="styles/style.css" >
-    <link rel="icon" href="images/favicon.ico" type="image/ico" sizes="16x16">
+    <link rel="stylesheet" href="styles.css/style.css" >
+    <link rel="icon" href="/images/favicon.ico" type="image/ico" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fork-awesome/1.2.0/css/fork-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <div>
+      <div id="inicio">
       <img src="images/Captura.JPG" alt="logo empresa">
-      </div>
-      <nav>
-        <a href="home">Home</a>
-        <a href="home">Locations</a>
-        <a href="home">Testimonials</a>
-        <a href="home">Contact Us</a>
+      
+      <nav id="navegar">
+        <a href="home">HOME</a>
+        <a href="home">LOCATIONS</a>
+        <a href="home">TESTIMONIALS</a>
+        <a href="home">CONTACT US</a>
       </nav>
-      <div>
-        <button type="button">LOG IN</button>
-      </div>
+      <button id="botoncito" type="button">LOG IN</button>
+      
+    </div>
     </header>
 
     <main>
+      <div id="columnear">
       <div>
-        <img src="images/ninos-pastel.png" alt="niños con pastel">
+        <img id="pastel" src="images/ninos-pastel.png">
       </div>
-      <section>
-        <h1>Here, we put kids in charge.</h1>
-        <article>
-        <h3>Preposterous? Possibly.<br>Effective? You betcha.</h3>
-        <div>
+      
+      <section id="primera">
+        <div id="dividir">
+        <article id="mostaza">
+        <h1 id="estil-h">Here, we put kids in charge.</h1>
+        <h3 id="estil-hd">Preposterous? Possibly.<br>Effective? You betcha.</h3>
+        <div id="rellenito-d">
         <p>When you trust kids, they trust themselves. For 44 years, we’ve put kids in charge of their own learning experience. They try, fail, and learn on their own. They learn to trust their own judgment, and tackle the challenges of an ever changing world with creativity and confidence.</p>
-        <p>Campers choose minute to minute from a variety of activities including, sewing, stop-motion animation, music, sports & recreation, makers crafts, bread making, and more. They’ll decide what they want to do, and for how long. Our job is to get out of their way, cheerlead creative risks, and provide just enough guidance to make sure nobody does anything totally* asinine.</p>
-        </div>
-        <p>*Totally asinine: By our definition, mistakes aren’t asinine. They’re how you learn.</p>
+        <p id="mi-manera">Campers choose minute to minute from a variety of activities including, sewing, stop-motion animation, music, sports & recreation, makers crafts, bread making, and more. They’ll decide what they want to do, and for how long. Our job is to get out of their way, cheerlead creative risks, and provide just enough guidance to make sure nobody does anything totally* asinine.</p>
+        
+        <p id="total">*Totally asinine: By our definition, mistakes aren’t asinine. They’re how you learn.</p>
+      </div>
       </article>
-        <aside>
-          <img src="images/nino-afro.png" alt="imagen descuento">
-        <h3>HOLIDAY CAMPS</h3>
-        <p>Camp shouldn’t have an off-season. Find your local camp for fall, winter, spring & school breaks to learn all about our activities, specials, and more. Camp is for kids ages 4-12.</p>
+        <aside id="crema">
+
+          <img id="clink" src="images/nino-afro.png" alt="imagen descuento">
+        <h3 id="festejo">HOLIDAY CAMPS</h3>
+        <p id="fuera">Camp shouldn’t have an off-season. Find your local camp for fall, winter, spring & school breaks to learn all about our activities, specials, and more. Camp is for kids ages 4-12.</p>
         <div>
-          <button type="button">FIND A HOLIDAY CAMP</button>
+          <button id="encontrar" type="button">FIND A HOLIDAY CAMP</button>
         </div>
         </aside>
+      </div>
       </section>
+    </div>
       <section>
-        <img src="images/nina-circulo.png" alt="niña sosteniendo masa">
-        <h1>70+ Locations—Probably Near You</h1>
-        <h3>Select a location to learn more about our camps</h3>
-        <table border="1">
+        <div id="contenedor">
+        <img id="chamaca" src="images/nina-circulo.png"/>
+        <div id="pocision">
+        <h1 id="localizacion">70+ Locations—Probably Near You</h1>
+        <h3 id="camp">Select a location to learn more about our camps</h3>
+        </div>
+      </div>
+        <div id="tabla-c">
+        <table>
           <thead>
           <tr>
           <th>STATE</th>
@@ -65,127 +79,131 @@
           </thead>
           <tbody>
           <tr>
-            <td>Alabama</td>
-            <td><u>Alexander City</u></td>
-            <td>Summer Camp</td>
-            <td><img src="images/correcto.png" alt="imagen correcto"></td>     
+            <td class="mover">Alabama</td>
+            <td class="mover"><u>Alexander City</u></td>
+            <td class="mover">Summer Camp</td>
+            <td><img class="acierto" src="images/correcto.png" alt="imagen correcto"></td>     
+          </tr>
+          <tr class="gris">
+            <td class="mover">Alabama</td>
+            <td class="mover"><u>Dothan</u></td>
+            <td class="mover">Holiday Camp</td>
+            <td><img class="acierto" src="images/incorrecto.png" alt="imagen descuento"></td>     
           </tr>
           <tr>
-            <td>Alabama</td>
-            <td><u>Dothan</u></td>
-            <td>Holiday Camp</td>
-            <td><img src="images/incorrecto.png" alt="imagen incorrecto"></td>     
+            <td class="mover">STATE</td>
+            <td class="mover"><u>Anchorage</u></td>
+            <td class="mover">Sports Camp</td>
+            <td><img class="acierto" src="images/incorrecto.png" alt="imagen descuento"></td>     
+          </tr>
+          <tr class="gris">
+            <td class="mover">STATE</td>
+            <td class="mover"><u>Nogales</u></td>
+            <td class="mover">Holiday Camp</td>
+            <td><img class="acierto" src="images/correcto.png" alt="imagen correcto"></td>     
           </tr>
           <tr>
-            <td>STATE</td>
-            <td><u>Anchorage</u></td>
-            <td>Sports Camp</td>
-            <td><img src="images/incorrecto.png" alt="imagen incorrecto"></td>     
+            <td class="mover">STATE</td>
+            <td class="mover"><u>Scottsdale</u></td>
+            <td class="mover">Sports Camp</td>
+            <td><img class="acierto" src="images/correcto.png" alt="imagen correcto"></td>     
+          </tr>
+          <tr class="gris">
+            <td class="mover">STATE</td>
+            <td class="mover"><u>Conway</u></td>
+            <td class="mover">Holiday Camp</td>
+            <td><img class="acierto" src="images/correcto.png" alt="imagen correcto"></td>     
           </tr>
           <tr>
-            <td>STATE</td>
-            <td><u>Nogales</u></td>
-            <td>Holiday Camp</td>
-            <td><img src="images/correcto.png" alt="imagen correcto"></td>     
+            <td class="mover">STATE</td>
+            <td class="mover"><u>El Dorado</u></td>
+            <td class="mover">Sports Camp</td>
+            <td><img class="acierto" src="images/incorrecto.png" alt="imagen descuento"></td>     
           </tr>
-          <tr>
-            <td>STATE</td>
-            <td><u>Scottsdale</u></td>
-            <td>Sports Camp</td>
-            <td><img src="images/correcto.png" alt="imagen correcto"></td>     
-          </tr>
-          <tr>
-            <td>STATE</td>
-            <td><u>Conway</u></td>
-            <td>Holiday Camp</td>
-            <td><img src="images/correcto.png" alt="imagen correcto"></td>     
-          </tr>
-          <tr>
-            <td>STATE</td>
-            <td><u>El Dorado</u></td>
-            <td>Sports Camp</td>
-            <td><img src="images/incorrecto.png" alt="imagen incorrecto"></td>     
-          </tr>
-          <tr>
-            <td>STATE</td>
-            <td><u>Beverly Hills</u></td>
-            <td>Summer Camp</td>
-            <td><img src="images/correcto.png" alt="imagen correcto"></td>     
+          <tr class="gris">
+            <td class="mover">STATE</td>
+            <td class="mover"><u>Beverly Hills</u></td>
+            <td class="mover">Summer Camp</td>
+            <td><img class="acierto" src="images/correcto.png" alt="imagen correcto"></td>     
           </tr>
           </tbody>
         </table>
+      </div>
+      <div id="bordecito">
+
+      </div>
       </section>
       <section>
-        <article>
-        <img src="images/nino-pato.png" alt="niño con sombrero de pato sonriendo">
-        <h2>Testimonials</h2>
-        <p>Learn where your website traffic is coming from, what your visitors are looking for, and how they’re interacting with your content or products through our in-depth Analytics tools.</p>
-      </article>
-      <div>
-        <div>
-          <div>
-          <img src="images/persona.png" alt="persona 1">
-          <h3>Marck Donovan<br>Air Flow</h3>
+        <div id="pato-azul">
+        <div id="contenedor-dos">
+          <img id="patito" src="images/nino-pato.png"/>
+          <div id="pocision-dos">
+          <h1 id="testi">Testimonials</h1>
+          <h3 id="aprende">Learn where your website traffic is coming from, what your visitors are looking for, and how they’re interacting with your content or products through our in-depth Analytics tools.</h3>
           </div>
-          <p>“ The best solution in the market to solve any problem you may have."</p>
         </div>
-        <div>
-          <div>
-            <img src="images/persona.png" alt="persona 2">
-            <h3>Marck Donovan<br>Air Flow</h3>
-            </div>
-            <p>“ The best solution in the market to solve any problem you may have."</p>
+        <div id="azulito"></div>
+      <div id="separado">
+        <div class="dividendo">
+          <div class="perfil">
+          <img class="basta" src="images/Intersect.png">
+          <h3 class="flow">Mayra Dutch<br>AIR FLOW</h3>
+          </div>
+          <p class="solucion">“ The best solution in the market to solve any problem you may have."</p>
         </div>
-        <div>
-          <div>
-            <img src="images/persona.png" alt="persona 3">
-            <h3>Marck Donovan<br>Air Flow</h3>
+        <div class="dividendo" id="amarillo">
+          <div class="perfil">
+          <img class="basta" src="images/Intersect-1.png">
+          <h3 class="flow">Anne Donovan<br>AIR FLOW</h3>
+          </div>
+          <p class="solucion">“ The best solution in the market to solve any problem you may have."</p>
+        </div>
+        <div class="dividendo" id="rojo">
+          <div class="perfil">
+            <img class="basta" src="images/intersect-2.png">
+            <h3 class="flow">Aaron Smith<br>AIR FLOW</h3>
             </div>
-            <p>“ The best solution in the market to solve any problem you may have."</p>
+            <p class="solucion">“ The best solution in the market to solve any problem you may have."</p>
         </div>
       </div>
     </section>
-    <section>
-        <img src="images/nino-mujer.png" alt="camping post">
-        <aside>
-          <h1>Contact Us</h1>
+    <section id="cala-con">
+        <img id="calabaza" src="images/nino-mujer.png" alt="camping post"/>
+        <aside id="contato">
+          <div id="perfeito">          
+            <h1 id="us">Contact Us</h1>
           <form>
-            <label for="mail">EMAIL ADDRESS</label><br>
-            <input type="text" id="mail" name="mail" value="Your Email Address"><br>
-            <label for="name">YOUR NAME</label><br>
-            <input type="text" id="name" name="name" value="First and Last Name"><br>
-            <label for="location">YOUR LOCATION</label><br>
-            <input type="text" id="location" name="city" value="Your city">
-            <input type="text" id="zip" name="zip" value="Your Zip Code"><br>
-            <label for="message">YOUR MESSAGE</label><br>
-            <textarea id="message" name="message" rows="10" cols="30">
-The cat was playing in the garden.
-              </textarea><br>
-            <input type="submit" value="Send Message">
+            <label class="folmato" for="mail">EMAIL ADDRESS</label><br>
+            <input class="asume" type="text" id="mail" name="mail" placeholder="Your Email Address"><br>
+            <label class="folmato" for="name">YOUR NAME</label><br>
+            <input class="asume" type="text" id="name" name="name" placeholder="First and Last Name"><br>
+            <label class="folmato" for="location">YOUR LOCATION</label><br>
+            <div id="puedo">
+            <input class="medalla" type="text" id="location" name="city" placeholder="Your city">
+            <div id="espacio"></div>
+            <input class="medalla" type="text" id="location" name="zip" placeholder="Your Zip Code"><br>
+          </div>
+            <label class="folmato" for="message">YOUR MESSAGE</label><br>
+            <textarea id="paul" name="message"  placeholder="Let us know what you would like to chat about!"></textarea><br>
+            <input id="otro" type="submit" value="SEND MESSAGE">
             
           </form>
+          </div>
         </aside>
         </section>
         
     </main>
   <footer>
+    <div id="seguida">
     <div>
-    <div>
-      <div>
-        <img src="https://steveandkatescamp.com/wp-content/uploads/2022/01/steveandkates-logo.png" alt="logo dibujo">
-        <p>58 West Portal Ave #800,<br>San Francisco, CA 94127</p>
-      </div>
-      <div>
-        <img src="images/facebook.JPG" alt="logo facebook">
-        <img src="images/insta.JPG" alt="logo instagram">
-        <img src="images/youtube.JPG" alt="logo youtube">
-      </div>
+      <img id="termina" src="/images/marca.png">
     </div>
-    <div>
+    <div id="casi">
+    <div class="basta">
       <div>
-      <p>ABOUT S&K</p>
+      <p class="blanquear">ABOUT S&K</p>
       </div>
-      <div>
+      <div class="goat">
         <a href="https://steveandkatescamp.com/philosophy/">Philosophy</a>
         <a href="https://steveandkatescamp.com/jobs/">Jobs</a>
         <a href="https://steveandkatescamp.com/press/">Press</a>
@@ -193,11 +211,11 @@ The cat was playing in the garden.
         <a href="https://steveandkatescamp.com/events/">Events</a>
       </div>
       </div>
+      <div class="basta">
       <div>
-      <div>
-        <p>HELPFUL LINKS</p>
+        <p class="blanquear">HELPFUL LINKS</p>
       </div>
-        <div>
+        <div class="goat">
           <a href="https://steveandkatescamp.com/fees/financial-aid/">Financial Aid</a>
           <a href="https://steveandkatescamp.com/bright-horizons/">Using Bright Horizons</a>
           <a href="https://steveandkatescamp.com/bright-horizons/">Back-Up Care</a>
@@ -205,21 +223,21 @@ The cat was playing in the garden.
           <a href="https://steveandkatescamp.com/bright-horizons/">Contact</a>
         </div>
       </div>
-      <div>
+      <div class="basta">
         <div>
-          <p>OUR CAMPS</p>
+          <p class="blanquear">OUR CAMPS</p>
           </div>
-          <div>
+          <div class="goat">
             <a href="https://steveandkatescamp.com/locations/">Summer Camps</a>
             <a href="https://steveandkatescamp.com/winter-spring-camps/">Spring Break Camps</a>
             <a href="https://steveandkatescamp.com/winter-spring-camps/">Winter Break Camps</a>
           </div>
         </div>
-        <div>
+        <div class="basta">
           <div>
-            <p>LEGAL STUFF</p>
+            <p class="blanquear">LEGAL STUFF</p>
             </div>
-            <div>
+            <div class="goat">
               <a href="https://steveandkatescamp.com/liability-waiver/">Liavility Waiver</a>
               <a href="https://steveandkatescamp.com/dmca-policy/">DMCA</a>
               <a href="https://steveandkatescamp.com/online-guidelines-and-safety/">Steve & Kate’s Virtual</a>
@@ -227,6 +245,8 @@ The cat was playing in the garden.
             </div>
           </div>
         </div>
+    </div>
+  
   </footer>
   </body>
 </html>
