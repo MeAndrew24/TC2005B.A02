@@ -1,0 +1,369 @@
+* {  
+    margin: 0;
+    padding: 0;
+    border: solid;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    border: solid transparent;
+    border-bottom-color: black;
+}
+
+#conjunto {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#nombre {
+    font-family: "Inter";
+    font-size: 2.2vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#foto-logo {
+    height: 90%;
+    max-height: 100%;
+}
+
+nav {
+    width: auto;
+    display: flex;
+    
+    justify-content: space-between;
+ 
+    margin-top: 10px;
+}
+
+nav a {
+   
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+    justify-content: center;
+   
+    margin-left: 40px;
+}
+
+.separacion {
+    font-family: "Inter";
+    color: black;
+    font-size: 1.3em;
+    display: flex;
+    margin-right: 1%;
+   
+    
+}
+#main-blog {
+    
+    display: flex;
+    margin: 0 auto ; /* Center the main-blog section */
+    max-width: 80%; /* Set a maximum width to limit the content width */
+    padding: 0 20px; /* Add padding to the sides for better readability */
+  }
+  #cody-con {
+    display: inline-flex;
+    align-items: center;
+}
+#cody{
+    
+
+
+
+    text-align: center; /* Center the container horizontally */
+    width:100%;
+
+}
+#top{
+    margin-top: 70px;
+}
+#reciente{
+    padding-top: 200px ;
+    font-weight: 600;
+    display: inline;
+    font-family: "Inter";
+    font-size: 2.8vw;
+    margin-left: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border: 5px solid transparent;
+    border-bottom-color: black;
+}
+#rodeado{
+    padding-top: 8%;
+}
+#important{
+    width: 100%;
+}
+#t-main{
+    
+    margin-top: 20px;
+    font-family: "Inter";
+    font-size: 3vw;
+    font-weight: 500;
+}
+#recorrido{
+    margin-left: 5%;
+    
+}
+aside{
+    width: 50%;
+}
+#relleno-t{
+    margin-top: 1.8%;
+    font-family: "Inter";
+    font-size: 1.4vw;
+}
+#leer{
+    font-family: "Inter";
+    font-size: 1.7vw;
+    border-radius: 25px;
+    width: 39%;
+    height: 80%;
+    margin-top: 2.5%;
+    margin-left: 20%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    
+}
+#leer:hover{
+    background-color: antiquewhite;
+}
+.selec{
+    color: black;
+    
+}
+#ayuda{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+#fuego{
+    display: inline;
+    font-weight: 600;
+    font-family: "Inter";
+    font-size: 2em;
+    margin-left: 1%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border: 5px solid transparent;
+    border-bottom-color: black;
+    margin-bottom: 3%;
+}
+.banner-card {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+.escenario {
+    opacity: 0.8;
+    width: 100%; /* Set the width of the image to 100% */
+    max-width: 580px; /* Ensure the image doesn't exceed a maximum width */
+}
+
+.banner-text {
+    
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Set the width of the text container to 100% */
+    overflow: hidden; /* Hide any overflow text */
+}
+#flexeo{
+    display: flex;
+    justify-content: center;
+}
+.textote {
+    font-family: "Inter";
+    font-size: 2.6vw;
+    display: inline-block; /* Display as inline-block to allow alignment */
+    text-align: left; /* Align text to the left */
+    
+    width: 80%; /* Set width to fill the container */
+}
+.textito{
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 1.5vw;
+    display: inline-block; /* Display as inline-block to allow alignment */
+    text-align: left; /* Align text to the left */
+    
+    width: 80%; /* Set width to fill the container */
+
+}
+.leeme{
+    
+    font-family: "Inter";
+    font-size: 1.7vw;
+    border-radius: 25px;
+    width: 39%;
+    height: 80%;
+    margin-top: 2.5%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+}
+.leeme:hover{
+    background-color: antiquewhite;
+}
+#junta-tre{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.escenario-dos {
+    opacity: 0.8;
+    width: 100%; /* Set the width of the image to 100% */
+}
+.textote-dos{
+    font-family: "Inter";
+    font-size: 2.0vw;
+    display: inline-block; /* Display as inline-block to allow alignment */
+    text-align: left; /* Align text to the left */
+    
+    width: 80%; /* Set width to fill the container */   
+}
+.textito-dos{
+    font-family: "Inter";
+    font-weight: 200;
+    font-size: 0.80vw;
+    display: inline-block; /* Display as inline-block to allow alignment */
+    text-align: left; /* Align text to the left */
+    
+    width: 80%; /* Set width to fill the container */
+
+}
+#columna-f{
+    display: flex;
+    flex-direction: column;
+}
+#centrar-f{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    border: solid transparent;
+    border-top-color: black;
+}
+#inscribe{
+    margin-top: 5%;
+    font-family: "Inter";
+    font-size: 2vw;
+    font-weight: 500;
+}
+#intento{
+    display: flex;
+    flex-direction: column;
+}
+#lo{
+    display: flex;
+    justify-content: center;
+}
+#expandir{
+    margin-top: 5%;
+    width: 20em;
+    height: 2em;
+}
+#expansion {
+    width: 70%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto; /* Add this line for compatibility */
+    margin-bottom: 5%;
+    font-family: "Inter";
+}
+#expansion:hover{
+    background-color: antiquewhite;
+}
+@media(max-width:920px){
+
+
+    nav a{
+        margin-left: 0;
+        margin-right: 0;
+        
+        
+    }
+    #separacion{
+        font-size: 0.1em;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    #conjunto{
+        justify-content: center;
+       }
+    #nombre{
+        font-size: 2em;
+    }
+  }
+  @media(max-width:600px){
+    #flexeo{
+        display: flex;
+        flex-direction: column;
+    }
+    .textote{
+        font-size: 2.5em;
+    }
+    .textito{
+        font-size: 0.98em;
+    }
+    #junta-tre{
+        display: flex;
+        flex-direction: column;
+    }
+    .escenario-dos{
+        opacity: 0.8;
+        width: 100%; 
+        max-width: 580px; 
+
+    }
+    .textote-dos{
+        font-size: 2.5em;
+    }
+    .textito-dos{
+        font-size: 0.98em;
+    }
+    
+  }
+  @media(max-width:500px){
+
+    .textote{
+        font-size: 2.0em;
+    }
+    .textito{
+        font-size: 0.89em;
+    }
+    .textote-dos{
+        font-size: 2.0em;
+    }
+    .textito-dos{
+        font-size: 0.89em;
+    }
+  }
+
+@media(max-width:420px){
+
+    .textote{
+        font-size: 1.5em;
+        
+    }
+    .textito{
+        font-size: 0.75em;
+    }
+  }
